@@ -142,13 +142,6 @@ nav li span:hover {
   position: absolute;
   width: 200px;
   z-index: 20;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 600px) {
-  .menu a {
-    width: 100%;
-  }
 }
 
 .sub-menu li {
@@ -526,10 +519,10 @@ hr {
 
   /* リンクボタンを小さい画面でも収める */
 
-  .btn-gradient,
-  #contents a.btn-gradient {
-    max-width: 100%;
-  }
+.btn-gradient,
+#contents a.btn-gradient {
+  width: 100%;
+  max-width: 100%;
 }
 
 /* 公開テスト用の配置 */
