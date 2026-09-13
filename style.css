@@ -142,6 +142,13 @@ nav li span:hover {
   position: absolute;
   width: 200px;
   z-index: 20;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .menu a {
+    width: 100%;
+  }
 }
 
 .sub-menu li {
