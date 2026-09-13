@@ -523,15 +523,20 @@ hr {
   }
 }
 
-/* 仮の公開テスト用 */
-#wrapper{
-  padding:20px;
-  text-align:left;
+/* 公開テスト用の配置 */
+#wrapper {
+  padding: 20px;
+  text-align: left;
 }
 
-h1{
-  color:#666;
-  font-size:1.6em;
-  line-height:1.4;
-  margin:0 0 0.5em 0;
+h1 {
+  color: #666;
+  font-size: 1.6em;
+  line-height: 1.4;
+  margin: 0 0 0.5em 0;
+  text-align: left;
+}
+
+#contents {
+  text-align: center;
 }
