@@ -140,7 +140,7 @@ nav li span:hover {
 .sub-menu {
   background: rgba(237, 226, 238, 0.9);
   position: absolute;
-  width: 200px;
+  width: 50%;
   z-index: 20;
 }
 
