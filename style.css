@@ -251,11 +251,11 @@ a.btn-gradient {
 #contents a.btn-gradient::before {
   content: "";
   display: inline-block;
-  flex: 0 0 25px;
-  width: 25px;
-  height: 25px;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
   background: url("./img/menu_icon.png") no-repeat center;
-  background-size: 25px 25px;
+  background-size: 22px 22px;
 }
 
 .btn-gradient:hover,
