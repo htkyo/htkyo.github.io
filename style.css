@@ -228,11 +228,12 @@ a.btn-gradient {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 
   width: 50%;
   padding: 1rem 4rem;
 
-  color: #fff;
+  color: #666;
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 1.7;
@@ -242,16 +243,19 @@ a.btn-gradient {
 
   text-decoration: none;
 
-  box-shadow:
-    1px 1px 4px 0 rgba(247, 193, 150, 0.69);
+  background: #ffeeee;
+}
 
-  background-image:
-    linear-gradient(
-      150deg,
-      rgba(248, 147, 172, 1),
-      rgba(255, 204, 204, 1) 50%,
-      rgba(204, 204, 204, 1) 100%
-    );
+/* メニューアイコン */
+.btn-gradient::before,
+#contents a.btn-gradient::before {
+  content: "";
+  display: inline-block;
+  flex: 0 0 25px;
+  width: 25px;
+  height: 25px;
+  background: url("./img/menu_icon.png") no-repeat center;
+  background-size: 25px 25px;
 }
 
 .btn-gradient:hover,
