@@ -243,7 +243,8 @@ a.btn-gradient {
 
   text-decoration: none;
 
-  background: #F9E2E9;
+  background: linear-gradient(135deg, #F9E2E9 0%, rgba(255, 238, 238, 0) 100%);
+   
 }
 
 /* メニューアイコン */
