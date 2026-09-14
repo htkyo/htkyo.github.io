@@ -412,6 +412,7 @@ hr {
 
   body {
     font-size: 1.4em;
+    background-size: 100% auto;
   }
 
   #contents {
